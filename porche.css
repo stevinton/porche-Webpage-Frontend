@@ -194,8 +194,8 @@
 .grid .btn {
     position: relative;
     background-color: white;
-    left: -45vw;
-    top: 40vh;
+    left: -49rem;
+    top: 25rem;
     border: none;
     padding: 12px 15px 12px 15px;
 }
@@ -209,7 +209,7 @@
     width: 1.2rem;
 }
 
-.btn:hover {
+.grid .btn:hover{
     background-color: rgb(211, 20, 20);
     color: white;
     cursor: pointer;
