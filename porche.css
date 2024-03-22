@@ -94,7 +94,12 @@
 }
 
 .images {
+<<<<<<< HEAD
     height: 525px;
+=======
+    height: 80vh;
+    width: 100vw;
+>>>>>>> 26a446b (sec commit)
     transition: transform 1s ease;
 }
 
@@ -172,13 +177,22 @@
     padding: 20px 10px 10px 10px;
     margin-left: 12vh;
     font-weight: bolder;
+<<<<<<< HEAD
     font-size: xx-large;
+=======
+    font-size: 36px;
+>>>>>>> 26a446b (sec commit)
 }
 
 .carModel {
     font-size: x-large;
     position: relative;
+<<<<<<< HEAD
     left: -420px;
+=======
+    left: -35rem;
+    top: 1rem;
+>>>>>>> 26a446b (sec commit)
 }
 
 .text {
@@ -192,4 +206,25 @@
 .grid .btn {
     position: relative;
     background-color: white;
+<<<<<<< HEAD
+=======
+    left: -49rem;
+    top: 25rem;
+    border: none;
+    padding: 12px 15px 12px 15px;
+}
+
+.grid .btn span{
+    font-size: 16px;
+}
+
+.grid .btn img{
+    height: 1.2rem;
+    width: 1.2rem;
+}
+
+.grid .btn:hover{
+    background-color: rgb(211, 20, 20);
+    color: white;
+>>>>>>> 26a446b (sec commit)
 }
