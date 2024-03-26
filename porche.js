@@ -71,7 +71,6 @@ const rightArrow = document.querySelector(".right-arrow");
 const leftArrow = document.querySelector(".left-arrow");
 
 const car = document.querySelectorAll(".carSlide");
-console.log(car);
 
 let transitionCar = 0;
 
