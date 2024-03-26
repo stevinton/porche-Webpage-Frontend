@@ -94,12 +94,8 @@
 }
 
 .images {
-<<<<<<< HEAD
-    height: 525px;
-=======
     height: 80vh;
     width: 100vw;
->>>>>>> 26a446b (sec commit)
     transition: transform 1s ease;
 }
 
@@ -177,22 +173,14 @@
     padding: 20px 10px 10px 10px;
     margin-left: 12vh;
     font-weight: bolder;
-<<<<<<< HEAD
-    font-size: xx-large;
-=======
     font-size: 36px;
->>>>>>> 26a446b (sec commit)
 }
 
 .carModel {
     font-size: x-large;
     position: relative;
-<<<<<<< HEAD
-    left: -420px;
-=======
-    left: -35rem;
-    top: 1rem;
->>>>>>> 26a446b (sec commit)
+    left: -30vw;
+    top: 1vh;
 }
 
 .text {
@@ -206,25 +194,145 @@
 .grid .btn {
     position: relative;
     background-color: white;
-<<<<<<< HEAD
-=======
-    left: -49rem;
-    top: 25rem;
+    left: -45vw;
+    top: 40vh;
     border: none;
     padding: 12px 15px 12px 15px;
 }
 
-.grid .btn span{
+.grid .btn span {
     font-size: 16px;
 }
 
-.grid .btn img{
+.grid .btn img {
     height: 1.2rem;
     width: 1.2rem;
 }
 
-.grid .btn:hover{
+.btn:hover {
     background-color: rgb(211, 20, 20);
     color: white;
->>>>>>> 26a446b (sec commit)
+    cursor: pointer;
+}
+
+.btn1 {
+    font-size: 16px;
+    border: 1px solid white;
+    background-color: transparent;
+    position: relative;
+    top: 40vh;
+    left: -65vw;
+    padding: 12px 18px 12px 18px;
+    color: white;
+}
+
+.btn1:hover {
+    cursor: pointer;
+    border: 1px solid red;
+    color: red;
+}
+
+/* car explorer */
+
+.container-3 {
+    display: flex;
+    margin: 2rem;
+    padding-left: 1.5rem;
+    overflow-x: scroll;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.carSlide {
+    margin-right: 2vw;
+}
+
+.carSlide img {
+    height: 35vh;
+}
+
+.right-arrow {
+    position: absolute;
+    right: -0.5vw;
+    top: 8vh;
+    font-size: 20px;
+    padding: 20px;
+    margin-right: 10px;
+    box-shadow: 3px 3px 10px rgb(0 0 0 / 0.2);
+    width: 3.5vw;
+}
+
+.left-arrow {
+    position: absolute;
+    left: -1vw;
+    top: 8vh;
+    font-size: 20px;
+    padding: 20px;
+    margin-left: 10px;
+    box-shadow: 3px 3px 10px rgb(0 0 0 / 0.2);
+    width: 3.5vw;
+}
+
+.left-arrow:hover,
+.right-arrow:hover {
+    background-color: rgb(211, 20, 20);
+    cursor: pointer;
+    color: white;
+}
+
+.hide {
+    display: none;
+}
+
+.btn2 {
+    color: white;
+    background-color: #313639;
+    border: none;
+    margin: 0px 0px 20px;
+    padding: 13px 21px;
+    font-size: 16px;
+    position: relative;
+    left: 8vw;
+}
+
+.btn2:hover {
+    background-color: rgb(211, 20, 20);
+}
+
+/* Shopping tools */
+
+.container-4 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin: 20px;
+}
+
+.img1 {
+    height: 41.9vh;
+    width: 35vw;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.shopTools a {
+    text-decoration: none;
+}
+
+.shopText {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    position: relative;
+    left: 2vw;
+    top: -8vh;
+    font-size: 20px;
+}
+
+.shopText span {
+    color: red;
+}
+
+.shopText:hover {
+    color: red;
 }
