@@ -336,3 +336,170 @@
 .shopText:hover {
     color: red;
 }
+
+/* for the social media control */
+
+.container-5 {
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+    grid-template-rows: -1fr;
+    grid-gap: 0px;
+    justify-content: center;
+    position: relative;
+    left: -15vw;
+    margin: 5vh 10vw;
+    object-fit: contain;
+    height: 85vh;
+}
+
+.bigImg {
+    width: 30vw;
+    height: 52vh;
+}
+
+.bigImg img {
+    width: 30vw;
+    height: 52vh;
+    padding: 1px 6px;
+}
+
+.bigImg video {
+    width: 30vw;
+    height: 52vh;
+    padding: 1px 6px;
+    object-fit: cover;
+}
+
+.smallImg {
+    width: 15vw;
+    height: 25vh;
+}
+
+.smallImg img {
+    width: 15vw;
+    height: 25vh;
+    padding: 1px 6px;
+}
+
+.smallImg video {
+    width: 15vw;
+    height: 25vh;
+    object-fit: cover;
+    padding: 1px 6px;
+}
+
+.story4 {
+    position: relative;
+    top: -52vh;
+    left: 60vw;
+}
+
+.story5,
+.story6 {
+    position: relative;
+    left: -30vw;
+    top: 1vh;
+}
+
+.story7 {
+    position: relative;
+    top: -78vh;
+    left: 30vw;
+}
+
+.story8,
+.story9 {
+    position: relative;
+    top: -51vh;
+    left: 30vw;
+}
+
+.loadBtn button {
+    color: white;
+    background-color: #313639;
+    border: none;
+    margin: 0px 0px 20px;
+    padding: 13px 21px;
+    font-size: 16px;
+    position: relative;
+    left: 85vw;
+    top: -5vh;
+}
+
+.loadBtn button:hover {
+    background-color: rgb(211, 20, 20);
+    cursor: pointer;
+}
+
+/* For the discover content */
+
+.container-6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20vh;
+}
+
+.discover {
+    width: 22vw;
+    height: 32vh;
+}
+
+.discover img {
+    width: 22vw;
+    height: 32vh;
+}
+
+.discover img:hover {
+    border-bottom: 3px red solid;
+}
+
+/* last container */
+
+.lastContainer {
+    margin: 0px 40px;
+    display: flex;
+    border-top: 1px solid black;
+}
+
+.footContent {
+    display: flex;
+    flex-direction: column;
+    margin: 60px;
+}
+
+.footContent h3 {
+    padding: 8px 0px;
+}
+
+.footContent a {
+    text-decoration: none;
+    color: black;
+    padding: 8px 0px;
+}
+
+.footContent a:hover {
+    color: red;
+}
+
+/* footer */
+
+footer {
+    background-color: rgb(25, 31, 34);
+    color: white;
+    font-weight: lighter;
+}
+
+footer p {
+    margin: 0px 40px;
+    padding: 40px 0px;
+}
+
+footer p a {
+    color: white;
+}
+
+footer p a:hover{
+    text-decoration: none;
+    color: rgb(211, 20, 20);
+}

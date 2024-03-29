@@ -102,3 +102,28 @@ const arrows = () => {
         rightArrow.classList.toggle("hide");
     }
 }
+
+// for the discover content
+
+const discover = document.querySelectorAll(".discover");
+console.log(discover);
+
+discover.forEach(item => {
+    item.addEventListener("mouseover", function () {
+        for (let i = 0; i < item.children.length; i++) {
+            if(item.children[i].tagName === "P"){
+                item.children[i].style.color = "red";
+            }
+        }
+    });
+})
+
+discover.forEach(item => {
+    item.addEventListener("mouseout", function () {
+        for (let i = 0; i < item.children.length; i++) {
+            if(item.children[i].tagName === "P"){
+                item.children[i].style.color = "";
+            }
+        }
+    });
+})
